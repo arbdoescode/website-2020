@@ -1,0 +1,126 @@
+<html><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="maintest.css">
+<script>
+function w(d,e,c){b=d.slice(0,c),b==d?e.innerHTML=b:(e.innerHTML=b+"|",setTimeout(w,100,d,e,c+1))}window.addEventListener('DOMContentLoaded',function(){for(i of document.getElementsByClassName("typewriter"))w(i.innerHTML,i,0)},false)</script>
+
+<link rel="shortcut icon" type="image/jpeg" href="IMG_0028.jpg">
+    
+<title>Arb Projects</title>
+
+<noscript><style>#loading-cover,.lazy{display:none}</style></noscript>
+<script>
+window.addEventListener('load', function() {
+	console.log('Page loaded')
+	document.getElementById("loading-cover").remove()
+}, false)
+</script>
+<style>.center-vertical-container{height:calc(100% - 3rem)}</style>
+</head>
+<body>
+
+<div class="center-vertical-container text-cer">
+	<div class="center-vertical-content">
+		<h2 class="title typewriter">Exercises</h2>
+	</div>
+</div>
+    <div class="st-table">
+        <div class="st-exp"><a href="https://repl.it/@arbbisha/triangles" class="link-exp">Triangle example(C)</a>
+            <div class="solut"><p class="exer-stil">#include &#60;stdio.h><br>
+            &nbsp;&nbsp;int main(){<br>
+            &nbsp;&nbsp;int i, j, rows;<br>
+            &nbsp;&nbsp;scanf("%d", &rows);<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;for (i=rows; i&#60;=1; ++i) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (j=1; j&#60;=i; ++j){<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("*"); } <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;return 0;<br>
+            }</p>
+        </div>
+        <div><h3><mark>Note:</mark>To display numbers, you can declare an integer instead of “*” , or play with the for loop functions to shape your triangles. Every type of triangle you can find in my repl.  </h3>
+        <a class="link-exp">Armstrong numbers (C)</a>
+            </div>
+            <div class="solut"><p class="exer-stil">#include &#60;stdio.h><br>
+            &nbsp;&nbsp;int main(){<br>
+            &nbsp;&nbsp;int n,r,temp;<br>
+            &nbsp;&nbsp;int sum=0;<br>
+            &nbsp;&nbsp;scanf("%d",&n);<br>
+            &nbsp;&nbsp;temp=n; <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;while(n>0) <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;{<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;r=n%10;    <br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;sum=sum+(r*r*r);<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n=n/10;<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            &nbsp;&nbsp;if(temp==sum)<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;pritf("%d is armstrong number",temp);<br>
+            &nbsp;&nbsp;else<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;printf("%d is not armstrong number",temp);<br>
+            &nbsp;return 0;<br>
+                }
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="nd-table">
+        <div class="nd-exp"><a href="https://repl.it/@arbbisha/Progress-bar" class="link-exp">Progress bar algorithm</a>
+            <div class="solut"><p class="exer-stil">
+                #include &#60;stdio.h><br>
+                #include &#60;stdlib.h><br><br>
+                int show_status (double x);<br><br>
+                int main()<br>
+                {<br>
+                &nbsp;&nbsp;int taskcompleted = 0;<br>
+                &nbsp;&nbsp;<strong><em>double numtasks = 27</em></strong>;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;for(; taskcompleted &#60;= numtasks; taskcompleted++)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;show_status((taskcompleted / numtasks) * 100);<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;&nbsp;return (EXIT_SUCCESS);<br>
+                }<br>
+                int show_status (double percent)<br>
+                {<br>
+                &nbsp;&nbsp;int x;<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;for(x = 0; x &#60;<strong><em>percent/3</em></strong>; x++)<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;{<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf("|");<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;printf(" %.2f%%\r", percent);<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fflush(stdout);<br>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><em>system("sleep 0.25");</em></strong><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;return(EXIT_SUCCESS);<br>
+                }
+                </p>
+            </div><h3><mark>Note:</mark>At the double value "numtasks" you display the number of ticks your progress bar will have, at the value which divides the percent you determine the bars per persentage you want in your progress bar, and in the end at system the value you put in sleep will determine the speed of progress bar.  </h3>
+        </div>
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+    
+<button onclick="topFunction()" id="myBtn" title="Go to top">&#8682;</button>
+<script>
+
+var mybutton = document.getElementById("myBtn");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+    </script></body></html>
