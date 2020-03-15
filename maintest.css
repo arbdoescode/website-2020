@@ -3,7 +3,7 @@
 	box-sizing:border-box
 }
 body {
-	font-family: 'Exo', sans-serif;
+    font-family: 'Exo', sans-serif;
 	background-color:#000000;
 	color:#fff;
 	margin:0;
@@ -200,7 +200,6 @@ img {
 	float:right;
 	margin-left:1em
 }
-
 .overlay {
     text-align:center;
     height: 0;
@@ -246,15 +245,17 @@ img {
   font-size: 60px;
 }
 
-@media only screen and (max-height: 450px) {
+@media only screen and (max-height: 600px) {
   .overlay a {font-size: 20px}
     .title {
 	text-align:center;
 	font-weight:20;
 	font-size:5rem;
-	padding:0 1rem
-    }}
-  .overlay .closebtn {
+	padding:0 1rem;
+    }
+}
+  
+.overlay .closebtn {
   font-size: 40px;
   top: 25px;
   right: 35px;
