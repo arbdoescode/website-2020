@@ -349,12 +349,7 @@ img {
 #myBtn:hover {
   background-color: #404040;
 }
-@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
 
-*{
-    margin: 0px;
-    padding: 0px;
-}
 .area{
     background: #000;  
     background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);  
@@ -367,10 +362,10 @@ img {
 .circles{
     position: absolute;
     top: 0;
-    left: 0;
+    left: -42;
     width: 100%;
-    height: 100%;
-    overflow: hidden;
+    height: 67%;
+    overflow: ;
 }
 
 .circles li{
@@ -380,7 +375,7 @@ img {
     width: 20px;
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
-    animation: animate 25s linear infinite;
+    animation: animate 12s linear infinite;
     bottom: -150px;
     
 }
