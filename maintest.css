@@ -245,7 +245,7 @@ img {
   font-size: 60px;
 }
 
-@media screen and (max-height: 481px) {
+@media only screen and (max-height: 450px) {
   .overlay a {font-size: 20px}
     .title {
 	text-align:center;
