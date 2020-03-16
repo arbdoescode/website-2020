@@ -430,6 +430,7 @@ img {
     width: 150px;
     height: 150px;
     animation-delay: 1s;
+    animation-duration: 7s;
 }
 
 .circles li:nth-child(8){
