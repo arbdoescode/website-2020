@@ -365,7 +365,7 @@ img {
     left: -150;
     width: 100%;
     height: 64%;
-    overflow: none;
+    overflow: hidden;
 }
 
 .circles li{
