@@ -47,8 +47,8 @@ h6 {
 	max-width:none
 }
 .back-arrow{
-    margin: 20 ;
-    margin-top: -200;
+    margin: 23 ;
+    margin-top: -210;
     transition: 0.2s;
     position: fixed;
 }
