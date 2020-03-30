@@ -46,6 +46,12 @@ h6 {
 	height:96vh;
 	max-width:none
 }
+.back-arrow{
+    margin: 20 ;
+    margin-top: -200;
+    transition: 0.2s;
+    position: fixed;
+}
 .pp-terms{
     display: table;
     margin: 0 auto;
