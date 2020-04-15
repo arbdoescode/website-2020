@@ -334,6 +334,47 @@ img {
   opacity: 1;
   right: 0;
 }
+.button2 {
+  border-radius: 4px;
+  background-color: #ffffff00;
+  border: none;
+  color: #c0c0c0;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.3s;
+  cursor: pointer;
+  margin: 5px;
+  position: fixed;
+  right: 1214px;
+    
+}
+
+.button2 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button2 span:after {
+  content: '\00ab';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: -50px;
+  transition: 0.7s;
+}
+
+.button2:hover span {
+  padding-left: 25px;
+}
+
+.button2:hover span:after {
+  opacity: 1;
+  left: 0;
+}
 
 #myBtn {
   display: none;
