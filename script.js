@@ -227,7 +227,7 @@ function updateGameArea() {
         }
     }
     if(myGamePiece.y >= 255){myGamePiece.image.src = "assets/arbwalk.png"}
-    if (myGameArea.key && myGameArea.key == 37) {myGamePiece.speedX = -3.5; myGamePiece.image.src = "assets/arbwalkback.png"}
+    if(myGameArea.key && myGameArea.key == 37) {myGamePiece.speedX = -3.5; myGamePiece.image.src = "assets/arbwalkback.png"}
     if(myGamePiece.y <= 256){myGamePiece.image.src = "assets/arbjump.png"}
     myTraps.update();
     myJumpBtn.update();                
