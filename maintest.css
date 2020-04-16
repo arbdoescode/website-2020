@@ -2,6 +2,9 @@
 ::before {
 	box-sizing:border-box
 }
+img{
+    position: absolute;
+}
 body {
     font-family: 'Exo', sans-serif;
 	background-color:#000000;
