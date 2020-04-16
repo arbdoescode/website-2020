@@ -52,6 +52,12 @@ h6 {
     transition: 0.2s;
     position: absolute;
 }
+.backarrow{
+    margin: 23 ;
+    margin-top: -200;
+    transition: 0.2s;
+    position: absolute;
+}
 .pp-terms{
     display: table;
     margin: 0 auto;
