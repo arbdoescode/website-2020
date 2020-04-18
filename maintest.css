@@ -93,6 +93,12 @@ h6 {
 .st-table {
     background-color: #262626;
     width: 100%;
+    height: 120vh;
+    max-width: none;
+}
+.rd-table {
+    background-color: #262626;
+    width: 100%;
     height: 83.4vh;
     max-width: none;
 }
