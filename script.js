@@ -16,7 +16,7 @@ function startGame() {
     myJumpBtn = new component(50, 50, "buttons/jumpbutton.png", 600, 370,"image");   
     myLeftBtn = new component(30, 30, "buttons/leftbutton.png", 40, 377,"image");
     myRightBtn = new component(30, 30, "buttons/rightbutton.png", 110, 377,"image");
-    Boss = new component(222, 256, "assets/bowser.png", 1000, 106,"image");
+    Boss = new component(217, 327, "assets/xhoissj.png", 1000, 33.5,"image");
     myGameArea.start();
 }
 
@@ -227,7 +227,7 @@ function updateGameArea() {
         }
     }
     if(myGamePiece.y >= 255){myGamePiece.image.src = "assets/arbwalk.png"}
-    if(myGameArea.key && myGameArea.key == 37) {myGamePiece.speedX = -3.5; myGamePiece.image.src = "assets/arbwalkback.png"}
+    if (myGameArea.key && myGameArea.key == 37) {myGamePiece.speedX = -3.5; myGamePiece.image.src = "assets/arbwalkback.png"}
     if(myGamePiece.y <= 256){myGamePiece.image.src = "assets/arbjump.png"}
     myTraps.update();
     myJumpBtn.update();                
@@ -237,6 +237,11 @@ function updateGameArea() {
     if (Boss.x > 500){Boss.x += -0.25;}
     if (Boss.x == 500){
         Boss.x = 500;
+      if (myGameArea.frameNo == 2 || everyinterval(150)) {
+        Boss.image.src = "assets/xhoiattack.png";
+    } if (myGameArea.frameNo == 2 || everyinterval(155)) {
+        Boss.image.src = "assets/xhoissj.png";
+    }
         if (myGameArea.frameNo == 2 || everyinterval(150)) {
         this.x += this.speed * Math.sin(this.angle);
         this.y -= this.speed * Math.cos(this.angle);
