@@ -584,3 +584,20 @@ transition-duration: 0.4s;
   background-color: #555555;
   color: white;
 }
+.classname {
+  margin-left: -90px;
+  margin-top: -15px;
+  -webkit-animation-name: cssAnimation;
+  -webkit-animation-duration:1s;
+  -webkit-animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+}
+@-webkit-keyframes cssAnimation {
+  from {
+    -webkit-transform: rotate(720deg) scale(1) skew(0deg) translate(0px) ;
+  }
+  to {
+    -webkit-transform: rotate(1440deg) scale(1.5) skew(0deg) translate(00px);
+  }
+}
