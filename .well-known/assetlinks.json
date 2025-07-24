@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.uft.emoney",
+    "sha256_cert_fingerprints":
+    ["4F:CD:84:DD:FF:9B:63:D6:DA:5F:2C:9E:04:FA:F0:B4:E4:39:12:D2:BB:B8:F7:6E:8D:E0:CA:1E:83:68:2E:F8"]
+  }
+}]
