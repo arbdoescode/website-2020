@@ -3,8 +3,8 @@
     "apps": [],
     "details": [
       {
-        "appID": "XB72663YGR.com.unionifinanciar.emoney", 
-        "paths": [ "/transaction*" ]
+        "appID": "XB72663YGR.1.unionifinanciar.emoney", 
+        "paths": [ "*" ]
       }
     ]
   }
