@@ -1,7 +1,30 @@
-"apps": [],
-    "details": [
-      {
-        "appID": "XB72663YGR.1.unionifinanciar.emoney", 
-        "paths": [ "*" ]
-      }
-    ]
+{
+   "applinks":{
+      "apps":[
+         
+      ],
+      "details":[
+         {
+            "appID":"XB72663YGR.-.unionifinanciar.emoney1",
+            "paths":[
+               "NOT /_/*",
+               "/*"
+            ]
+         },
+         {
+            "appID":"XB72663YGR.1.unionifinanciar.emoney",
+            "paths":[
+               "NOT /_/*",
+               "/*"
+            ]
+         },
+         {
+            "appID":"XB72663YGR.com.uft.UPayPOS",
+            "paths":[
+               "NOT /_/*",
+               "/*"
+            ]
+         }
+      ]
+   }
+}
